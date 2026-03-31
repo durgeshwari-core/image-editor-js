@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    
+}
+html{
+background-color: #7AAACE;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 100%;
+}
+main section{
+    width: 100%;
+    padding: var(--padding-md);
+    display: flex;
+    gap: var(--gutter-sm);
+}
+
+/* .btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: var(--padding-sm) var(--padding-md);
+    border-radius: var(--border-radius-xl);
+    background-color: var(--bg-tertiary-color);
+    color: black;
+    color: var(--text-primary-color);
+    border: none;
+    outline: none;
+    color: var(--text-secondary-color);
+    border: #171f33 solid 3px;
+} */
+ /* #Download{
+    background-color: rgba(11, 141, 222, 0.461);
+ } */
+ main section .top{
+    border: #171f33 solid 3px;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    background-color: #1d3557;
+    align-items: center;
+    padding-left: 80px;
+    gap: var(--gutter-sm);
+    border-radius: var(--border-radius-md);
+    margin-top: 8px;
+}
+
+main section .left{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    gap: var(--gutter-lg);
+    align-items: center;
+}
+main section .right{
+    border: #171f33 solid 3px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: var(--gutter-sm);
+    background-color: #F1FAEE;
+    border-radius: var(--border-radius-md);
+    padding: 20px;
+    margin-top: var(--margin-sm);
+    accent-color: var(--text-secondary-color);
+    height: 60%;
+}
+main section .bottom{
+    border: #171f33 solid 3px;
+    background-color:#355872;
+    width: 100%;
+    height: 87vh;
+    border-radius: var(--border-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+main section .bottom .placeholder{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+}
+main section .bottom .placeholder i{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-secondary-color);
+   
+}
+main section .bottom .placeholder p{
+    font-size: var(--font-size-lg);
+   
+}
+
+main section .right .filter{
+width: 100%;
+}
+main section .right .filter input{
+    width: 100%;
+    outline: none;
+    
+}
+
+
+main section .right .filter input::-webkit-slider-thumb{
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-secondary-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+main section .right .filters{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter-md);
+}
+canvas{
+    background-color : #edf2f4;
+   max-width: 100%;
+    max-height: 87vh;
+    display: none;
+}
+.presets{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter-sm);
+
+}
+
+/* From Uiverse.io by Mhyar-nsi */ 
+.btn {
+  background-color: #101c30;
+  color: #f3f4f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;          /* set fixed height like buttons */
+    padding: 0 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #acb2bc5f;
+  color: #fff;
+}
+
+
